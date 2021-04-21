@@ -11,13 +11,21 @@ petit soucis > ZQSD ne marche pas > utilisez WASD + Space pour jump
 INPUTS :
 ---------------------------------------------------------------------
 Avancer : W
+
 Reculer : S
+
 Gauche : A
+
 Droite : D
+
 Sauter : Space
+
 Viser : SourisDroit
+
 Respawn : R
+
 Ouvrir menu pause : Escape 
+
 Fermer menu pause : EScape ou avec le boutton : "Resume"
 ---------------------------------------------------------------------
 
