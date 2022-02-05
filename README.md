@@ -28,10 +28,14 @@ The project includes:
 ```
 git@github.com:LeoSery/Ydays_project--Ynov_2020-2021--Unity3D.git
 ```
+or 
+```
+https://github.com/LeoSery/Ydays_project--Ynov_2020-2021--Unity3D.git
+```
 
 - open Unity Hub and do "*Add project from disk*"
 
-    Select "`..\Ydays_project--Ynov_2020-2021--Unity3D\Bob's Adventure`"
+    Select "`..\Ydays_project--Ynov_2020-2021--Unity3D`"
 
 - Check that the project opens with the Unity editor in version "**2020.3.20f1**"
 
