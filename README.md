@@ -59,4 +59,8 @@ If you have an error concerning a package go to: ***"Window > Package Manager"**
 - Text Mesh Pro (3.0.6)
 - Unity UI (1.0.0)
 - Universal RP (10.6.0)
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 24455e1d1a7a7de5aeec40bd96e64a1e49cb4422
