@@ -1,33 +1,62 @@
-# projet-YDAYS-ynov-2020-2021
-jeu réalisé pendant mon année de 2020/2021 a l'occasion des YDAYS ynov.
+# project-YDAYS-ynov-2020-2021
+Game made during my year of bachelor 1 (2020/2021) for the YDAYS ynov.
 
-ce projet n'est qu'une démonstration, il n'est pas terminé, et comporte des bug. Merci de votre compréhension.
+## Summary
 
-WARNING :
----------------------------------------------------------------------
-petit soucis > ZQSD ne marche pas > utilisez WASD + Space pour jump
----------------------------------------------------------------------
+- Presentation
+- How to open the project
+- How to build the project 
+- Problems solving
 
-INPUTS :
----------------------------------------------------------------------
-Avancer : W
+## Presentation
 
-Reculer : S
+Game made during a course at Ynov which allowed me to train on unity.
+The project includes:
+- A third person type camera system controllable with the mouse.
+- Character movement via the W,A,S,D keys
+- The possibility of jumping with the Space key
+- Jumping and breathing animation are available
+- A pause menu to quit or resume the game
 
-Gauche : A
+![](https://i.imgur.com/4UsyTOb.png)
+![](https://i.imgur.com/CwPxcM3.png)
+![](https://i.imgur.com/57x5amC.png)
 
-Droite : D
+## How to open the project:
 
-Sauter : Space
+- Clone the git repository to your computer with the following command :
+```
+git@github.com:LeoSery/Ydays_project--Ynov_2020-2021--Unity3D.git
+```
 
-Viser : SourisDroit
+- open Unity Hub and do "*Add project from disk*"
 
-Respawn : R
+    Select "`..\Ydays_project--Ynov_2020-2021--Unity3D\Bob's Adventure`"
 
-Ouvrir menu pause : Escape 
+- Check that the project opens with the Unity editor in version "**2020.3.20f1**"
 
-Fermer menu pause : EScape ou avec le boutton : "Resume"
----------------------------------------------------------------------
+## How to build the project : 
 
+- Once the project is open in Unity, do *"File" > "Build Settings"*
 
+- In the window that has just appeared, in the *"Scenes In Build"* section, make sure that *"scenes/Game"* is checked.
 
+- for the platform choose: *"PC, Mac & Linux Standalone"*
+
+- then choose your platform in *"Target Platform"*
+
+- and finally press *"Build And Run"*
+
+## Problems solving :
+
+The project uses different optional Unity packages. 
+If you have an error concerning a package go to: ***"Window > Package Manager"*** and check that you have the following packages installed: 
+
+```
+- 2D Sprite (1.0.0)
+- Cinemachine (2.6.11)
+- Post Processing (3.1.1)
+- Text Mesh Pro (3.0.6)
+- Unity UI (1.0.0)
+- Universal RP (10.6.0)
+```
